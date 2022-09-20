@@ -30,8 +30,5 @@ button {
 .gallery {
   display: flex;
   align-items: center;
-}
-
-.list-item {
-  margin: 10px;
+  gap: 10px;
 }

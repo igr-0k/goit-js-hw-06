@@ -1,5 +1,5 @@
 const rangeSelect = document.querySelector('#font-size-control');
-const textEl = document.querySelector('#text');
+const textEl = document.getElementById('text');
 
 rangeSelect.value = 16;
 rangeSelect.addEventListener('change', event => {
