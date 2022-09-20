@@ -10,7 +10,8 @@ function onSubmit(event) {
   };
   if (email.value === '' || password.value === '') {
     alert('All fields must be completed!');
+  } else {
+    loginForm.reset();
+    console.log(data);
   }
-  loginForm.reset();
-  console.log(data);
 }
